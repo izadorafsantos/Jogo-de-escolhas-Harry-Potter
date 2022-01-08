@@ -1,0 +1,72 @@
+@font-face {
+    font-family: HARRYP__;
+    src: url(fonts/HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: Felt Tip Roman;
+    src: url(fonts/Felt\ Tip\ Roman.ttf);
+}
+
+.telapersonagem{
+    background-image: url(images/salaocomunal.jpg);
+    background-size: cover;
+    cursor:url(images/cursor.png), auto;
+    height: 100%;
+    border: solid red;
+}
+
+.titulopersonagem{
+    color: azure;
+    font-family: HARRYP__;
+    font-size: 90px;
+    margin: 35px;
+    text-align: center;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.opcoes a{
+    background-color: black;
+    border-radius: 10px;
+    border: 6px solid rgb(233, 126, 39);
+    border-style: double;
+    cursor: none;
+    cursor:url(images/cursor.png), auto;
+    display: inline-block;
+    font-family: Felt Tip Roman;
+    margin:0px 20px;
+    text-align: center;
+    width: 30%;
+    transition: 1s;
+}
+
+.opcoes a:hover{
+    background-color: rgb(233, 126, 39);
+    cursor:url(images/cursor.png), auto;
+    transform: scale(1.05);
+}
+
+.opcoes a h2{
+    color: azure;
+    font-size: 35px;
+    margin:15px 15px;
+}
+
+a img {
+    width: 180px;
+    height: 180px;
+}
+
+.descricao {
+    color: azure;
+   padding: 20px;
+    font-size: 20px;
+}
+
+
+

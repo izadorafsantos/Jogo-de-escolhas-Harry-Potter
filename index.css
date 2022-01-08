@@ -1,32 +1,35 @@
 @font-face {
     font-family: HARRYP__;
-    src: url(HARRYP__.TTF);
+    src: url(fonts/HARRYP__.TTF);
 }
 
 @font-face {
     font-family: Felt Tip Roman;
-    src: url(Felt\ Tip\ Roman.ttf);
+    src: url(fonts/Felt\ Tip\ Roman.ttf);
 }
 
-  body {
-    background-image: url(tela.gif);
+body.tela {
+    background-image: url(images/tela.gif);
     background-size: cover;
-    cursor:url(images/cursor.png), auto;
-    height: 100%;
-    margin: 0px;
+    border: red  5px hidden;
+    height: 95vh;
+    width: 97vw;
+}
+
+header{
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .tituloDoJogo {
-    align-items: center;
     color: azure;
     display: flex;
     font-family: HARRYP__;
     font-size: 90px;
-    justify-content: center;
-    margin: 35px auto;
+    justify-content: center;    
 }
 
-.introducao {
+div.introducao {
     background-color:black; 
     border-radius: 10px;
     border:6px solid rgb(233, 126, 39);
@@ -52,17 +55,16 @@
 
 button {
     background-color:rgb(233, 126, 39);
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
     cursor:none;
     font-family: Felt Tip Roman;
     font-size: 25px;
     font-weight: 700;
-    height: 50px;
+    height: 60px;
     margin-top: 35px;
     outline-offset: 3px;
     outline: 2px solid rgb(253, 115, 2);
-    outline: none;
     padding: 10px;
     text-decoration: none;
     transition: 1s;
@@ -70,6 +72,7 @@ button {
 
 button:hover{
     transform: scale(1.1);
+    background-color: rgb(253, 115, 2);
 }
 
 button a{
@@ -85,9 +88,9 @@ button a:hover{
 footer {
     color: azure;
     display: flex;
-    justify-content: center;
-    margin-top: 160px;
     font-family: Felt Tip Roman;
     font-size: 20px;
+    justify-content: center;
+    margin-top: 150px;
 }
 
