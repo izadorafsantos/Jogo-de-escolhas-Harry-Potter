@@ -1,0 +1,86 @@
+@font-face {
+    font-family: HARRYP__;
+    src: url(HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: Felt Tip Roman;
+    src: url(Felt\ Tip\ Roman.ttf);
+}
+
+  body {
+    background-image: url(tela.gif);
+    background-size: cover;
+    cursor:url(images/cursor.png), auto;
+    height: 100%;
+    margin: 0px;
+}
+
+.tituloDoJogo {
+    align-items: center;
+    color: azure;
+    display: flex;
+    font-family: HARRYP__;
+    font-size: 90px;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.introducao {
+    background-color:black; 
+    border-radius: 10px;
+    border:6px solid rgb(233, 126, 39);
+    border-style: double;
+    color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Felt Tip Roman;
+    font-size: 25px;
+    height: 80%;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+    width: 60%;  
+}
+
+button {
+    background-color:rgb(233, 126, 39);
+    border-radius: 8px;
+    border: none;
+    cursor:none;
+    font-family: Felt Tip Roman;
+    font-size: 25px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 35px;
+    outline: none;
+    padding: 10px;
+    text-decoration: none;
+    outline: 2px solid rgb(253, 115, 2);
+    outline-offset: 3px;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button a{
+    cursor: none;
+    text-decoration-line: none;
+    color:azure;
+}
+
+button a:hover{
+    cursor:url(images/cursor.png), auto;
+}
+
+footer {
+    color: azure;
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
