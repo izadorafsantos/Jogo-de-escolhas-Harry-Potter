@@ -16,7 +16,7 @@ body{
 }
 
 .winnerdobby {
-    background-image: url(../images/salaprecisa.jpg);
+    background-image: url(../images/salaprecisa.gif);
 }
 
 header{
@@ -32,29 +32,31 @@ h1{
     justify-content: center;
 }
 
-.mensagemfinal1{
+.voceganhou{
     background-color:black; 
     border-radius: 10px;
     border:6px solid rgb(29, 11, 190);
     border-style: double;
     color: azure;
-    display: flex;
-    flex-wrap: wrap;
     font-family: Felt Tip Roman;
     font-size: 25px;
     height: 60%;
-    justify-content: center;
     margin: auto;
     padding: 30px;
-    text-align: justify;
+    text-align: center;
     width: 60%; 
+}
+
+#diadema {
+    border-radius: 10px;
+
 }
 
 #accio{
     color: rgb(29, 11, 190);
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
-    padding-top: 15px;
+    text-align: center;
 }
 
 button {
@@ -73,6 +75,7 @@ button {
     text-decoration: none;
     transition: 1s;
 }
+
 
 button:hover{
     transform: scale(1.1);
