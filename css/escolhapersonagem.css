@@ -25,6 +25,7 @@
 .opcoes{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
@@ -36,6 +37,7 @@
     cursor: none;
     display: inline-block;
     font-family: Felt Tip Roman;
+    height: 66vh;
     margin:0px 20px;
     text-align: center;
     width: 30%;
