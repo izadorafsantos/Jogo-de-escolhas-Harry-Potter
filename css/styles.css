@@ -29,13 +29,14 @@ header{
 }
 
 div.introducao {
+    align-items: center;
     background-color:black; 
     border-radius: 10px;
     border:6px solid rgb(29, 11, 190);
     border-style: double;
     color: azure;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     font-family: Felt Tip Roman;
     font-size: 25px;
     height: 60%;
@@ -67,6 +68,7 @@ button {
     padding: 10px;
     text-decoration: none;
     transition: 1s;
+    width: 30%;
 }
 
 button:hover{
