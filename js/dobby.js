@@ -2,7 +2,7 @@ function fase1dobby() {
     var escolhajogador = prompt(`Digite 1 ou 2`);
 
     if (escolhajogador ==1) {
-        window.location.href = "../html/gameoverdobby1.html";
+        window.location.href = "../html/dobbygameover1.html";
     } else if (escolhajogador ==2){
         window.location.href = "../html/dobbyescolha2.html";
     } else {
@@ -16,7 +16,7 @@ function fase2dobby() {
     if (escolhajogador ==1) {
         window.location.href = "../html/dobbyescolha3.html";
     } else if (escolhajogador ==2){
-        window.location.href = "../html/gameoverdobby2.html";
+        window.location.href = "../html/dobbygameover2.html";
     } else {
         alert (`Digite 1 ou 2`)
     }
@@ -26,7 +26,7 @@ function fase3dobby() {
     var escolhajogador = prompt(`Digite 1 ou 2`);
 
     if (escolhajogador ==1) {
-        window.location.href = "../html/gameoverdobby3.html";
+        window.location.href = "../html/dobbygameover3.html";
     } else if (escolhajogador ==2){
         window.location.href = "../html/dobbywin.html";
     } else {
