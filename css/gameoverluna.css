@@ -33,8 +33,7 @@ body{
 /*-------------------------------------------------------------*/
 
 header{
-    margin-top: 35px;
-    margin-bottom: 35px;
+   margin: 50px auto;
 }
 
 h1{
