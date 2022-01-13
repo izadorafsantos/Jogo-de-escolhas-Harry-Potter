@@ -10,15 +10,14 @@
 }
 
 body{
-    background-image: url(../images/salaoprincipal.jpg);
+    background-image: url(../images/salapocoes.jpg);
     background-size: cover;
     height: 94vh;
     width: 97vw;
 }
 
 header{
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin: 50px auto;
 }
 
 h1{
@@ -29,7 +28,7 @@ h1{
     justify-content: center;
 }
 
-.salaoprincipal{
+.saladepocoes{
     align-items: center;
     background-color:black; 
     border-radius: 10px;
