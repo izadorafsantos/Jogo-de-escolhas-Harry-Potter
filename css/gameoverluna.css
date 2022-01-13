@@ -1,4 +1,3 @@
-/* ESCOLHAS DE DOBBY*/
 @font-face {
     font-family: HARRYP__;
     src: url(../fonts/HARRYP__.TTF);
@@ -15,17 +14,17 @@ body{
     width: 97vw;
 }
 
-/* ----- BG DOS GAME OVERS E DO DOBBYWIN -----*/
+/* ----- BG DOS GAME OVERS E DO LUNAWIN -----*/
 .final1 {
-    background-image: url(../images/floresta.jpg);
+    background-image: url(../images/sibila.jpg);
 }
 
 .final2 {
-    background-image: url(../images/dobbyautoflagelo.png);
+    background-image: url(../images/esfinge.jpg);
 }
 
 .final3 {
-    background-image: url(../images/portasalaprecisa.jpg);
+    background-image: url(../images/helena.jpeg);
 }
 
 .winner {
@@ -46,7 +45,7 @@ h1{
     justify-content: center;
 }
 
-.mensagemfinal1{
+.mensagemfinal{
     align-items: center;
     background-color:black; 
     border-radius: 10px;

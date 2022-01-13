@@ -37,5 +37,5 @@ function fase3dobby() {
 /* ------- GAMER OVER PARA O INÍCIO -------*/
 let dobbyreinicio1 = document.querySelector("#dobbyreinicio1").onclick = function(){
     let dobbyreinicio2 = document.querySelector("#dobbyreinicio2");
-   dobbyreinicio2.setAttribute("href", "./index.html");
+   dobbyreinicio2.setAttribute("href", "../index.html");
 }

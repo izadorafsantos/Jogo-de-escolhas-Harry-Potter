@@ -18,7 +18,7 @@
     color: azure;
     font-family: HARRYP__;
     font-size: 90px;
-    margin: 35px;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -37,8 +37,8 @@
     cursor: none;
     display: inline-block;
     font-family: Felt Tip Roman;
-    height: 66vh;
-    margin:0px 20px;
+    height: 70%;
+    margin: 0px 20px 20px 20px;
     text-align: center;
     width: 30%;
     transition: 1s;

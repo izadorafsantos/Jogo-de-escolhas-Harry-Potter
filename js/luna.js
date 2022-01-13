@@ -37,5 +37,5 @@ function fase3luna() {
 /* ------- GAMER OVER PARA O INÍCIO -------*/
 let lunareinicio1 = document.querySelector("#lunareinicio1").onclick = function(){
     let lunareinicio2 = document.querySelector("#lunareinicio2");
-    lunareinicio2.setAttribute("href", "./index.html");
+    lunareinicio2.setAttribute("href", "../index.html");
 }

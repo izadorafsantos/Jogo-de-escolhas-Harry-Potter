@@ -52,6 +52,7 @@ h1{
     color: rgb(29, 11, 190);
     font-weight: 700;
     padding-top: 15px;
+    text-align: center;
 }
 
 button {
@@ -69,7 +70,7 @@ button {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     transition: 1s;
-    width: 30%;
+    width: 20%;
 }
 
 button:hover{

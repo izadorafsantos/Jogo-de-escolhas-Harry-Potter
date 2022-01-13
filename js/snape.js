@@ -37,5 +37,5 @@ function fase3snape() {
 /* ------- GAMER OVER PARA O INÍCIO -------*/
 let snapereinicio1 = document.querySelector("#snapereinicio1").onclick = function(){
     let snapereinicio2 = document.querySelector("#snapereinicio2");
-    snapereinicio2.setAttribute("href", "./index.html");
+    snapereinicio2.setAttribute("href", "../index.html");
 }

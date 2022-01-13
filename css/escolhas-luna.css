@@ -10,15 +10,15 @@
 }
 
 body{
-    background-image: url(../images/salaoprincipal.jpg);
+    background-image: url(../images/salaocorvinal.jpeg);
     background-size: cover;
     height: 94vh;
     width: 97vw;
 }
 
 header{
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -49,10 +49,11 @@ h1{
 
 }
 
- #acaoluna {
+ #enigmacorvinal, #dicaluna, #damacinzenta {
     color: rgb(29, 11, 190);
     font-weight: 700;
     padding-top: 15px;
+    text-align: center;
 }
 
 button {
@@ -70,7 +71,7 @@ button {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     transition: 1s;
-    width: 30%;
+    width: 20%;
 }
 
 button:hover{
