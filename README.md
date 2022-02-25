@@ -12,17 +12,17 @@ O jogo tem como mecanismo de funcionamento as escolhas feitas pelo usuário. Ela
 - Deve ser possível jogar com ao menos 3 personagens diferentes
 - Ao menos 3 etapas/fases devem ser implementadas para cada personagem
 
-# Status
+## Status
 Concluído :heavy_check_mark:
 
-# Ferramentas utilizadas
+## Ferramentas utilizadas
 - HTML5
 - CSS3
 - JavaScript
 
-# Autoria
+## Autoria
 🧙‍♀ [Izadora Ferreira](https://www.linkedin.com/in/izadora-ferreira-dos-santos-0504b2177/)
 
 <p align=center>
-  <img src="https://user-images.githubusercontent.com/92602538/155811983-b331f225-afaa-4712-8603-964cadc42317.gif>
+  <img src= "https://user-images.githubusercontent.com/92602538/155811983-b331f225-afaa-4712-8603-964cadc42317.gif" width=150>
 </p>
