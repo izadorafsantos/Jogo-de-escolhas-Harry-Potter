@@ -11,12 +11,8 @@
 body.tela {
     background-image: url(../images/tela.gif);
     background-size: cover;
-    height: 93vh;
-    width: 97vw;
-}
-
-header{
-    margin: 50px auto;
+    height: 100%;
+    width: 100%;
 }
 
 .tituloDoJogo {
@@ -24,73 +20,83 @@ header{
     display: flex;
     font-family: HARRYP__;
     font-size: 90px;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 3% auto;   
 }
 
 div.introducao {
-    align-items: center;
     background-color:black; 
-    border-radius: 10px;
     border:6px solid rgb(29, 11, 190);
     border-style: double;
+    border-radius: 10px;
     color: azure;
-    display: flex;
+    display: fit-content;
     flex-direction: column;
-    font-family: Felt Tip Roman;
-    font-size: 25px;
-    height: 60%;
-    justify-content: center;
+    height: auto;
     margin: auto;
-    padding: 30px;
+    padding: 2%;
+    width: 60%;
+    font-family: Felt Tip Roman;
+}
+
+#apresentacao{
+    font-size: 25px;
     text-align: justify;
-    width: 60%;  
 }
 
 #alohomora {
     color: rgb(29, 11, 190);
+    font-size: 28px;
     font-weight: 700;
-    padding-top: 15px;
+    text-align: center;
+    padding-top: 1%;
 }
 
-button {
+#choosecharacter {
     background-color:rgb(29, 11, 190);
     border-radius: 10px;
     border: none;
+    display: fit-content;
     cursor:none;
     font-family: Felt Tip Roman;
     font-size: 25px;
     font-weight: 700;
-    height: 60px;
-    margin-top: 35px;
+    height: auto;
     outline-offset: 3px;
     outline: 2px solid rgb(29, 11, 190);
-    padding: 10px;
+    padding: 1%;
     text-decoration: none;
     transition: 1s;
     width: 30%;
+    margin: 3% 35% 1%;
 }
 
-button:hover{
+#choosecharacter:hover{
     transform: scale(1.1);
     background-color: rgb(8, 2, 90);
 }
 
-button a{
+#choosecharacter a{
     cursor: none;
     text-decoration-line: none;
     color:azure;
 }
 
-button a:hover{
+#choosecharacter a:hover{
     cursor:url(../images/cursor.png), auto;
 }
 
 footer {
     color: azure;
-    display: flex;
+    display: fit-content;
+    width: 100%;
+    position: relative;
     font-family: Felt Tip Roman;
     font-size: 20px;
-    justify-content: center;
-    margin-top: 120px;
+    margin-top: 10%;
+}
+
+.copyright{
+    text-align: center;
 }
 
