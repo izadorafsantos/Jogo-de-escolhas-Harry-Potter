@@ -15,6 +15,9 @@ O jogo tem como mecanismo de funcionamento as escolhas feitas pelo usuário. Ela
 ## Status
 Concluído :heavy_check_mark:
 
+## Demonstraçãoo da aplicação
+<img src= "https://user-images.githubusercontent.com/92602538/155820720-3f96c6f6-e5ad-4a33-9369-3ae0cf76f6b5.gif"/>
+
 ## Ferramentas utilizadas
 - HTML5
 - CSS3
