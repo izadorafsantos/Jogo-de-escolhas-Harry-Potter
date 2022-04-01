@@ -3,11 +3,6 @@
     src: url(../fonts/HARRYP__.TTF);
 }
 
-@font-face {
-    font-family: Felt Tip Roman;
-    src: url(../fonts/Felt\ Tip\ Roman.ttf);
-}
-
 body.tela {
     background-image: url(../images/tela.gif);
     background-size: cover;
@@ -26,7 +21,7 @@ body.tela {
 
 div.introducao {
     background-color:black; 
-    border:6px solid rgb(29, 11, 190);
+    border:5px solid rgb(29, 11, 190);
     border-style: double;
     border-radius: 10px;
     color: azure;
@@ -35,54 +30,52 @@ div.introducao {
     height: auto;
     margin: auto;
     padding: 2%;
-    width: 60%;
-    font-family: Felt Tip Roman;
+    width: 53%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #apresentacao{
-    font-size: 25px;
+    font-size: 23px;
     text-align: justify;
 }
 
 #alohomora {
     color: rgb(29, 11, 190);
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 24px;
     text-align: center;
     padding-top: 1%;
 }
 
-#choosecharacter {
+#play {
     background-color:rgb(29, 11, 190);
     border-radius: 10px;
     border: none;
     display: fit-content;
     cursor:none;
-    font-family: Felt Tip Roman;
-    font-size: 25px;
-    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
     height: auto;
     outline-offset: 3px;
     outline: 2px solid rgb(29, 11, 190);
     padding: 1%;
     text-decoration: none;
     transition: 1s;
-    width: 30%;
-    margin: 3% 35% 1%;
+    width: 15%;
+    margin: 2% 42% 0 ;
 }
 
-#choosecharacter:hover{
+#play:hover{
     transform: scale(1.1);
     background-color: rgb(8, 2, 90);
 }
 
-#choosecharacter a{
+#play a{
     cursor: none;
     text-decoration-line: none;
     color:azure;
 }
 
-#choosecharacter a:hover{
+#play a:hover{
     cursor:url(../images/cursor.png), auto;
 }
 
@@ -90,13 +83,25 @@ footer {
     color: azure;
     display: fit-content;
     width: 100%;
-    position: relative;
-    font-family: Felt Tip Roman;
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
 .copyright{
     text-align: center;
 }
 
+/*Responsividade*/
+@media screen and (max-width:1100px){
+    #play {
+        font-size:21px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #play {
+        font-size:19px;
+    }
+}
